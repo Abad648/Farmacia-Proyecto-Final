@@ -1,14 +1,11 @@
--- Crear base de datos
 CREATE DATABASE BoticaDB;
 GO
 
 USE BoticaDB;
 GO
 
--- Habilitar claves foráneas
 EXEC sp_executesql N'ALTER DATABASE [BoticaDB] SET COMPATIBILITY_LEVEL = 150';
 
--- Tabla Categorías de productos
 CREATE TABLE Categorias (
     CategoriaID INT IDENTITY(1,1) PRIMARY KEY,
     Nombre VARCHAR(50) NOT NULL,
@@ -16,7 +13,6 @@ CREATE TABLE Categorias (
     FechaCreacion DATETIME DEFAULT GETDATE()
 );
 
--- Tabla Proveedores
 CREATE TABLE Proveedores (
     ProveedorID INT IDENTITY(1,1) PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
@@ -27,7 +23,6 @@ CREATE TABLE Proveedores (
     FechaRegistro DATETIME DEFAULT GETDATE()
 );
 
--- Tabla Productos (Medicamentos)
 CREATE TABLE Productos (
     ProductoID INT IDENTITY(1,1) PRIMARY KEY,
     CodigoProducto VARCHAR(20) UNIQUE NOT NULL,
@@ -46,7 +41,6 @@ CREATE TABLE Productos (
     FOREIGN KEY (ProveedorID) REFERENCES Proveedores(ProveedorID)
 );
 
--- Tabla Clientes
 CREATE TABLE Clientes (
     ClienteID INT IDENTITY(1,1) PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
@@ -59,19 +53,17 @@ CREATE TABLE Clientes (
     FechaRegistro DATETIME DEFAULT GETDATE()
 );
 
--- Tabla Ventas (Encabezado)
 CREATE TABLE Ventas (
     VentaID INT IDENTITY(1,1) PRIMARY KEY,
     ClienteID INT NULL,
     FechaVenta DATETIME DEFAULT GETDATE(),
     TotalVenta DECIMAL(12,2) NOT NULL,
-    FormaPago VARCHAR(50) DEFAULT 'EFECTIVO', -- EFECTIVO, TARJETA, TRANSFERENCIA
-    Estado VARCHAR(20) DEFAULT 'COMPLETADA', -- COMPLETADA, ANULADA, PENDIENTE
+    FormaPago VARCHAR(50) DEFAULT 'EFECTIVO', 
+    Estado VARCHAR(20) DEFAULT 'COMPLETADA', 
     Observaciones VARCHAR(500),
     FOREIGN KEY (ClienteID) REFERENCES Clientes(ClienteID)
 );
 
--- Tabla Detalle de Ventas
 CREATE TABLE DetalleVentas (
     DetalleID INT IDENTITY(1,1) PRIMARY KEY,
     VentaID INT NOT NULL,
@@ -83,13 +75,11 @@ CREATE TABLE DetalleVentas (
     FOREIGN KEY (ProductoID) REFERENCES Productos(ProductoID)
 );
 
--- Índices para mejor rendimiento
 CREATE INDEX IX_Productos_Codigo ON Productos(CodigoProducto);
 CREATE INDEX IX_Productos_Stock ON Productos(StockActual);
 CREATE INDEX IX_Ventas_Fecha ON Ventas(FechaVenta);
 CREATE INDEX IX_DetalleVentas_VentaID ON DetalleVentas(VentaID);
 
--- DATOS DE PRUEBA
 INSERT INTO Categorias (Nombre, Descripcion) VALUES 
 ('Analgésicos', 'Medicamentos para dolor'),
 ('Antibióticos', 'Medicamentos antibacterianos'),
