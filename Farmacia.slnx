@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Project Path="Botica.AppWeb/Botica.AppWeb.csproj" Id="938a7a48-7da9-4ff2-a2f9-a65d3d8ea5e0" />
+  <Project Path="Botica.BusinessLogic/Botica.BusinessLogic.csproj" Id="c9a88dda-ad8d-4841-9f6a-3ed89c0ece86" />
+  <Project Path="Botica.Data/Botica.Data.csproj" Id="80a52364-4a4c-45bd-a916-8f5a707b89a2" />
+  <Project Path="Botica.Entities/Botica.Entities.csproj" Id="c017fc80-646e-4f6f-8503-64af364c8565" />
+</Solution>
