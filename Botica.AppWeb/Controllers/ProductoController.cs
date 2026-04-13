@@ -28,6 +28,7 @@ namespace Botica.AppWeb.Controllers
         {
             return View(new ProductoVM());
         }
+        [HttpPost]
         public IActionResult Create(ProductoVM model) 
         {
             if (!ModelState.IsValid)
@@ -36,11 +37,13 @@ namespace Botica.AppWeb.Controllers
             
             return RedirectToAction("Index");
         }
+        
         public IActionResult Edit(int id)
         {
             var producto = services.GetById(id);
             if (producto == null)
                 return NotFound();
+
             var productoVM = new ProductoVM
             {
                 ProductosID = producto.ProductosID,
@@ -50,6 +53,33 @@ namespace Botica.AppWeb.Controllers
                 Estado = producto.Estado
             };
             return View(productoVM);
+        }
+        [HttpPost]
+        public IActionResult Edit(ProductoVM model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+            return RedirectToAction("Index");
+        }
+        public IActionResult Delete(int id)
+        {
+            var producto = services.GetById(id);
+            if (producto == null)
+                return NotFound();
+            var productoVM = new ProductoVM
+            {
+                ProductosID = producto.ProductosID,
+                NombreProduto = producto.NombreProduto,
+                Precioventa = producto.Precioventa,
+            };
+
+            return View(productoVM);
+        }
+        [HttpPost]
+        public IActionResult Delete(ProductoVM model)
+        {
+            services.Eliminar(model.ProductosID);
+            return RedirectToAction("Index");
         }
     }
 }

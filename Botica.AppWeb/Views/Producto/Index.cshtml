@@ -4,14 +4,29 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Listado de Productos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Agregar Nuevo Producto</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductosID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreProduto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precioventa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StockActual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -19,10 +34,23 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    @Html.DisplayFor(modelItem => item.ProductosID)
             </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.NombreProduto)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Precioventa)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.StockActual)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.ProductosID }, new {@class = "btn btn-primary btn-sm"}) |
+                    @Html.ActionLink("Eliminar", "Delete", new { id = item.ProductosID }, new { @class = "btn btn-danger btn-sm" })
         </tr>
 }
     </tbody>

@@ -19,5 +19,9 @@ namespace Botica.BusinessLogic
         {
             return _productoDB.ObtenerPorId(id);
         }
+        public bool Eliminar(int id)
+        {
+            return _productoDB.Eliminar(id);
+        }
     }
 }

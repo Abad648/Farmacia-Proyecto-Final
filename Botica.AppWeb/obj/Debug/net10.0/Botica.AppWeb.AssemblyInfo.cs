@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Botica.AppWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+683ec21a8143fd44045df01b565299be39c4f0fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6cddd56951809aafebce30f344309f0715e278c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Botica.AppWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Botica.AppWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

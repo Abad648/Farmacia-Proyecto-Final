@@ -1,0 +1,17 @@
+﻿@model Botica.AppWeb.Models.ProductoVM
+
+<h2>Eliminar Producto</h2>
+
+<h4>¿Seguro que quieres eliminar esto?</h4>
+
+<div>
+    <p><strong>Nombre:</strong> @Model.NombreProduto</p>
+    <p><strong>Precio:</strong> @Model.Precioventa</p>
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="ProductosID" />
+
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

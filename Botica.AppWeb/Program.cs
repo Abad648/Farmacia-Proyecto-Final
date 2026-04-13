@@ -1,7 +1,15 @@
+using Botica.Data.Infrastructure;
+using Botica.Data.Repositories;
+using Botica.BusinessLogic;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddScoped<IProducto, ProductoRepository>();
+builder.Services.AddScoped<ProductoServices>();
 
 var app = builder.Build();
 

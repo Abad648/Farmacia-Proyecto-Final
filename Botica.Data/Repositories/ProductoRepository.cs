@@ -17,10 +17,6 @@ namespace Botica.Data.Repositories
             cadenaConexion = config["ConnectionStrings:DB"] ?? string.Empty;
         }
             
-            public bool Eliminar(int id)
-        {
-            throw new NotImplementedException();           
-        }
             public List<Producto> Listar()
         {
             List<Producto> listado = new List<Producto>();
@@ -69,6 +65,18 @@ namespace Botica.Data.Repositories
         public int Registrar(Producto entity)
         {
             throw new NotImplementedException();
+        }
+        public bool Eliminar(int id)
+        {
+            using var conexion = new SqlConnection(cadenaConexion);
+            using var comando = new SqlCommand("EliminarProducto", conexion);
+
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            comando.Parameters.AddWithValue("@ProductoID", id);
+
+            conexion.Open();
+
+            return comando.ExecuteNonQuery() > 0;
         }
 
         #region PRIVATE METHODS

@@ -1,0 +1,60 @@
+﻿@model Botica.AppWeb.Models.ProductoVM
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1>Editar</h1>
+
+<h4>Producto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+
+            <input type="hidden" asp-for="ProductosID" />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="from-group">
+                <label asp-for="NombreProduto" class="control-label"></label>
+                <input asp-for="NombreProduto" class="form-control" />
+                <span asp-validation-for="NombreProduto" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Precioventa" class="control-label"></label>
+                <input asp-for="Precioventa" class="form-control" />
+                <span asp-validation-for="Precioventa" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StockActual" class="control-label"></label>
+                <input asp-for="StockActual" class="form-control" />
+                <span asp-validation-for="StockActual" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Estado" class="control-label"></label>
+                <input asp-for="Estado" class="form-control" />
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver al listado</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
