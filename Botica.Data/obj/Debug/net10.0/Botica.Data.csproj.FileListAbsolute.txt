@@ -1,0 +1,16 @@
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\bin\Debug\net10.0\Botica.Data.deps.json
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\bin\Debug\net10.0\Botica.Data.dll
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\bin\Debug\net10.0\Botica.Data.pdb
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\bin\Debug\net10.0\Botica.Entities.dll
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\bin\Debug\net10.0\Botica.Entities.pdb
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.csproj.AssemblyReference.cache
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.AssemblyInfoInputs.cache
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.AssemblyInfo.cs
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.csproj.CoreCompileInputs.cache
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.sourcelink.json
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.D.6812FCB6.Up2Date
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.dll
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\refint\Botica.Data.dll
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\Botica.Data.pdb
+D:\ProyectoFinal\Farmacia-Proyecto-Final\Botica.Data\obj\Debug\net10.0\ref\Botica.Data.dll

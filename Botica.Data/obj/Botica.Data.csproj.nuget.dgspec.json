@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyecto Final\\Farmacia\\Botica.Data\\Botica.Data.csproj": {}
+    "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Botica.Data.csproj": {}
   },
   "projects": {
-    "D:\\Proyecto Final\\Farmacia\\Botica.Data\\Botica.Data.csproj": {
+    "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Botica.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Final\\Farmacia\\Botica.Data\\Botica.Data.csproj",
+        "projectUniqueName": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Botica.Data.csproj",
         "projectName": "Botica.Data",
-        "projectPath": "D:\\Proyecto Final\\Farmacia\\Botica.Data\\Botica.Data.csproj",
-        "packagesPath": "C:\\Users\\JDavi\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Final\\Farmacia\\Botica.Data\\obj\\",
+        "projectPath": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Botica.Data.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JDavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,8 +34,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Botica.Entities.csproj": {
-                "projectPath": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Botica.Entities.csproj"
+              "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Botica.Entities.csproj": {
+                "projectPath": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Botica.Entities.csproj"
               }
             }
           }
@@ -364,20 +364,20 @@
         }
       }
     },
-    "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Botica.Entities.csproj": {
+    "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Botica.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Botica.Entities.csproj",
+        "projectUniqueName": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Botica.Entities.csproj",
         "projectName": "Botica.Entities",
-        "projectPath": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Botica.Entities.csproj",
-        "packagesPath": "C:\\Users\\JDavi\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\obj\\",
+        "projectPath": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Botica.Entities.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JDavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

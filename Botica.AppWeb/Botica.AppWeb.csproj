@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Botica.BusinessLogic\Botica.BusinessLogic.csproj" />
-    <ProjectReference Include="..\Botica.Data\Botica.Data.csproj" />
     <ProjectReference Include="..\Botica.Entities\Botica.Entities.csproj" />
   </ItemGroup>
 

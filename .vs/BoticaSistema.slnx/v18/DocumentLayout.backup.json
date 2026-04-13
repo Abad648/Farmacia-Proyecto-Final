@@ -1,18 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Proyecto Final\\Farmacia\\",
+  "WorkspaceRootPath": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|d:\\proyecto final\\farmacia\\botica.entities\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.appweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|solutionrelative:botica.appweb\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.appweb\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|solutionrelative:botica.appweb\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.appweb\\models\\productovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|solutionrelative:botica.appweb\\models\\productovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.appweb\\models\\categoriavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|solutionrelative:botica.appweb\\models\\categoriavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|solutionrelative:botica.entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.appweb\\models\\proveedorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938A7A48-7DA9-4FF2-A2F9-A65D3D8EA5E0}|Botica.AppWeb\\Botica.AppWeb.csproj|solutionrelative:botica.appweb\\models\\proveedorvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A52364-4A4C-45BD-A916-8F5A707B89A2}|Botica.Data\\Botica.Data.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.data\\infrastructure\\iproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A52364-4A4C-45BD-A916-8F5A707B89A2}|Botica.Data\\Botica.Data.csproj|solutionrelative:botica.data\\infrastructure\\iproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A52364-4A4C-45BD-A916-8F5A707B89A2}|Botica.Data\\Botica.Data.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.data\\infrastructure\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A52364-4A4C-45BD-A916-8F5A707B89A2}|Botica.Data\\Botica.Data.csproj|solutionrelative:botica.data\\infrastructure\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.entities\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|solutionrelative:botica.entities\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|d:\\proyecto final\\farmacia\\botica.entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|d:\\proyectofinal\\farmacia-proyecto-final\\botica.entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|solutionrelative:botica.entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|d:\\proyecto final\\farmacia\\botica.entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C017FC80-646E-4F6F-8503-64AF364C8565}|Botica.Entities\\Botica.Entities.csproj|solutionrelative:botica.entities\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +50,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Botica.AppWeb\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "Botica.AppWeb\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T15:14:31.946Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Proveedor.cs",
-              "DocumentMoniker": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Proveedor.cs",
-              "RelativeDocumentMoniker": "Botica.Entities\\Proveedor.cs",
-              "ToolTip": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Proveedor.cs",
-              "RelativeToolTip": "Botica.Entities\\Proveedor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAkAAAAqAAAAAAAAAA==",
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Botica.AppWeb\\Controllers\\ProductoController.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Botica.AppWeb\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T18:56:50.461Z",
+              "WhenOpened": "2026-04-12T15:13:08.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Categoria.cs",
-              "RelativeDocumentMoniker": "Botica.Entities\\Categoria.cs",
-              "ToolTip": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Categoria.cs",
-              "RelativeToolTip": "Botica.Entities\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ProveedorVM.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Models\\ProveedorVM.cs",
+              "RelativeDocumentMoniker": "Botica.AppWeb\\Models\\ProveedorVM.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Models\\ProveedorVM.cs",
+              "RelativeToolTip": "Botica.AppWeb\\Models\\ProveedorVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T18:55:11.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T14:43:46.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriaVM.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Models\\CategoriaVM.cs",
+              "RelativeDocumentMoniker": "Botica.AppWeb\\Models\\CategoriaVM.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Models\\CategoriaVM.cs",
+              "RelativeToolTip": "Botica.AppWeb\\Models\\CategoriaVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:43:19.497Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Producto.cs",
-              "RelativeDocumentMoniker": "Botica.Entities\\Producto.cs",
-              "ToolTip": "D:\\Proyecto Final\\Farmacia\\Botica.Entities\\Producto.cs",
-              "RelativeToolTip": "Botica.Entities\\Producto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAsAAAAAAAAAA==",
+              "Title": "ProductoVM.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Models\\ProductoVM.cs",
+              "RelativeDocumentMoniker": "Botica.AppWeb\\Models\\ProductoVM.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.AppWeb\\Models\\ProductoVM.cs",
+              "RelativeToolTip": "Botica.AppWeb\\Models\\ProductoVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T18:23:29.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T14:42:55.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProducto.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Infrastructure\\IProducto.cs",
+              "RelativeDocumentMoniker": "Botica.Data\\Infrastructure\\IProducto.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Infrastructure\\IProducto.cs",
+              "RelativeToolTip": "Botica.Data\\Infrastructure\\IProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:11:58.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGeneric.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Infrastructure\\IGeneric.cs",
+              "RelativeDocumentMoniker": "Botica.Data\\Infrastructure\\IGeneric.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Data\\Infrastructure\\IGeneric.cs",
+              "RelativeToolTip": "Botica.Data\\Infrastructure\\IGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:11:56.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Botica.Entities\\Proveedor.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Proveedor.cs",
+              "RelativeToolTip": "Botica.Entities\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:11:53.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "Botica.Entities\\Categoria.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Categoria.cs",
+              "RelativeToolTip": "Botica.Entities\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T14:11:48.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Producto.cs",
+              "RelativeDocumentMoniker": "Botica.Entities\\Producto.cs",
+              "ToolTip": "D:\\ProyectoFinal\\Farmacia-Proyecto-Final\\Botica.Entities\\Producto.cs",
+              "RelativeToolTip": "Botica.Entities\\Producto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T18:23:29.07Z"
             }
           ]
         }
